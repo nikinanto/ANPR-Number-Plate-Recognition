@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+venv_anpr/
+
+# Environment and logs
+.env
+.env.*
+*.log
+
+# Local database and generated detections
+anpr_history.db
+*.sqlite
+*.sqlite3
+static/uploads/
+static/output/
+output/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
